@@ -1,0 +1,11 @@
+.movie-card {
+  background-color: #D9D9D9;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.movie-card .ant-card-meta-title {
+  font-weight: bold;
+}
