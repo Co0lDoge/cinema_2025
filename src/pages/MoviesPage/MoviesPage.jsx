@@ -1,7 +1,7 @@
 import { Flex, Input, Pagination, Select } from "antd";
 import "./MoviesPage.css";
 import { moviesMock } from "../../utils/mockData";
-import MovieCard from "../../components/movieCard/MovieCard";
+import MovieCard from "../../components/MovieCard/MovieCard";
 import { getGenres, getMovies } from "../../utils/requests";
 import { useEffect, useState } from "react";
 

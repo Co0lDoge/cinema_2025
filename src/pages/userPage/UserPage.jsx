@@ -2,7 +2,7 @@ import { Descriptions, Flex, Pagination, Typography, Button } from "antd";
 import "./UserPage.css";
 import { useAuth } from "../loginPage/AuthContext";
 import { useEffect, useState } from "react";
-import MovieCard from "../../components/movieCard/MovieCard";
+import MovieCard from "../../components/MovieCard/MovieCard";
 import { userInfo } from "../../utils/requests";
 
 const UserPage = () => {

@@ -2,7 +2,7 @@ import { Flex, Statistic, Typography } from "antd";
 import logo from "../../assets/Group 1.svg";
 import { articles, genres } from "../../utils/mockData";
 import "./MainPage.css";
-import ArticleCard from "../../components/articleCard/ArticleCard";
+import ArticleCard from "../../components/ArticleCard/ArticleCard";
 import CategoryPreview from "../../components/category/CategoryPreview";
 import { useEffect, useState } from "react";
 import { getArticles, getGenres } from "../../utils/requests";
