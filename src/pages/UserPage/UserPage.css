@@ -1,0 +1,21 @@
+h1, p {
+  font-family: Calibri, sans-serif;
+}
+
+.userpage-content {
+  margin: 20px;
+}
+
+.userpage-content h1 {
+  margin: 10px 0;
+}
+
+.userpage-content p {
+  margin: 2px 0;
+}
+
+.userpage-content .ant-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}

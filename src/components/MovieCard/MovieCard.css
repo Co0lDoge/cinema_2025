@@ -1,10 +1,11 @@
-.card-img {
-  max-height: 300px;
+.movie-card {
+  background-color: #D9D9D9;
   min-height: 300px;
-  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.card-meta {
-  text-overflow: unset;
-  white-space: unset;
+.movie-card .ant-card-meta-title {
+  font-weight: bold;
 }
